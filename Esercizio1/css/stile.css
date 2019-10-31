@@ -56,7 +56,7 @@
 .more-info button {
     border: 2px solid #00c7fc;
     color: #00c7fc;
-    padding: 8px 30px;
+    padding: 8px 25px;
     margin-right: 15px;
     text-transform: uppercase;
     background-color: transparent;
@@ -73,5 +73,196 @@
     flex: 1;
     display: flex;
     align-items: center;
+}
 
+.content .features {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.features .cont{
+    width: 80%;
+    height: 80%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.scritta{
+    text-align: center;
+}
+
+.icons{
+    width: 810px;
+    height: 70px;
+    background-image: url("../images/lined-icons.png");
+    background-size: contain;
+    background-repeat: no-repeat; 
+}
+
+.descr{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.spec{
+    text-align: center;
+}
+
+.content .parte-c {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 231, 231);
+}
+
+.contenitore{
+    height: 70%;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    height: 100%;
+    width: 600px;
+    background-image: url("../images/divice-screen.png");
+    background-size: contain;
+    background-repeat: no-repeat;  
+}
+
+.row{
+    display: flex;
+}
+
+.img-icons{
+    height: 320px;
+    width: 50px;
+    background-image: url("../images/fea-cions.png");
+    background-size: contain;
+    background-repeat: no-repeat;  
+}
+
+.parole{
+    line-height: 24px;
+}
+
+.content .parte-d {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.easy{
+    height: 90%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.virgolette{
+    width: 60px;
+    height: 60px;
+    background-image: url("../images/quit.png");
+    background-size: contain;
+    background-repeat: no-repeat;  
+}
+
+.tipa{
+    width: 100px;
+    height: 150px;
+    background-image: url("../images/t-pic3.png");
+    background-size: contain;
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+
+.descr-tipa{
+    line-height: 5px;
+}
+
+.content .parte-e{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243, 245, 245);
+}
+
+label, input[type=text], textarea {
+    display: block;
+    box-sizing: border-box;
+    width: 500px;
+  }
+  input[type=text], textarea {
+    padding: 10px;
+    border: 1px solid #CCC;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-top: 7px;
+    margin-bottom: 15px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    height: 40px;
+    background-color: rgb(0, 199, 252);
+    color: #FFF;
+    padding: 10px 20px;
+    margin-top: 7px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgb(8, 187, 236);;
+  } 
+
+  form{
+      display: flex;
+}
+
+.words{
+    text-align: center;
+}
+
+.content .footer{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(40, 40, 40);
+    line-height: 20px;
+}
+
+.social{
+    width: 350px;
+    height: 80px;
+    background-image: url("../images/social-icons1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.termini{
+    color: rgb(143, 148, 148);
+}
+
+.copy{
+    color: rgb(7, 190, 240)
 }
